@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+	<div class="wrapper">
+		<form action="" method="">
+			<h1 class="title">Please fill out the form below and we will contact you shortly</h1>
+			<div class="container">
+				<label class="label" for="name">Full name</label>
+				<input class="box input" id="name" type="text">
+				<label class="label" for="email">Your e-mail address</label>
+				<input class="box input" id="email" type="email">
+				<label class="label" for="phone">Your phone number</label>
+				<input class="box input" id="phone" type="tel">
+				<div class="country">
+					<label class="label">Select your country</label>
+					<select class="box select">
+						<option>UK</option>
+						<option>RU</option>
+						<option>UA</option>
+					</select>
+				</div>
+				<div class="language">
+					<label class="label">Select your language</label>
+					<select class="box select">
+						<option>English</option>
+						<option>Russian</option>
+						<option>Ukrainian</option>
+					</select>
+				</div>
+				<div class="attend">
+					<span>I want to attend event</span>
+					<input class="radio" id="online" type="radio" name="attendance">
+					<label class="label" for="online">online</label>
+					<input class="radio" id="offline" type="radio" name="attendance">
+					<label class="label" for="offline">offline</label>
+				</div>
+				<label class="label" for="comments">Comments</label>
+				<textarea class="box comments" id="comments"></textarea>
+				<input class="checkbox" id="policy" type="checkbox" name="policy">
+				<label class="policy" for="policy">I agree with <a class="link" href="https://policies.google.com/privacy?hl=en-US">the
+				privacy policy</a></label>
+				<div>
+					<input class="clear" type="reset" value="Clear form">
+					<!-- submit -->
+					<input class="submit" type="submit" value="Submit form">
+				</div>
+			</div>
+		</form>
+	</body>
+
+	</html>
